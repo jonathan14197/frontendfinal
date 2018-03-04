@@ -4,26 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <style>
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: blue;
-    color: white;
-    text-align: center;
-  }
-</style>
+
   <title>Jonathan Stapleton</title>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    
 
     <div class="header">
         <h1 align="center" id="name">Jonathan Stapleton</h1>
@@ -31,26 +23,31 @@
     </div>
     <br>
     <Br>
-    
-
-    <!--FROM BOOTSTRAP WEBSITE -->
     <div class="row">
       <div class="col">
         <h4>GitHub Repositories</h4>
+        <button id="btn" type="button" class="btn btn-primary btn-lg" onclick="loadRepo()">Click for Git</button>
+        <br><br>
+        <div id="github-repos">
+        </div>
       </div>
       <div class="col">
         <h4>Tech Related Skills</h4>
         <ul>
-          <li>Coder Kiddy</li>
-          <li>Troubleshooting</li>
-          <li>Large Coffee intake</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
           <li>Crying</li>
         </ul>
       </div>
       <div class="col">
         <h4>Social Media Links</h4>
-        <a id="icon" href="https://www.linkedin.com/in/jonathan-stapleton-111440113/" class="fa fa-linkedin"></a>
-        <a  id="icon" href="https://github.com/jonathan14197" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/jonathan-stapleton-111440113/" target="_blank">
+          <img class="icons" border="0" alt="W3Schools" src="linkedin.png" width="50" height="50">
+          </a>
+          <a href="https://github.com/jonathan14197" target="_blank">
+            <img class="icons" border="0" alt="W3Schools" src="git.jpg" width="50" height="50">
+            </a>  
       </div>
     </div>
   </div>
