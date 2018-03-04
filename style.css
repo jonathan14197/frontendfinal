@@ -1,0 +1,57 @@
+#selfie {
+  width:300px;
+  height:400px;
+  border-radius: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Kavivanar', cursive;
+  color: #62FB2D;
+}
+
+h3 {
+  font-family: 'Kavivanar', cursive;
+  color: #62FB2D;
+}
+
+li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: large;
+  color: white;
+}
+
+h4 {
+  font-weight: bold;
+  color: orange;
+}
+
+.bkg {
+  opacity: 0.5;
+}
+
+#github-repos {
+  font-size: x-large;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
